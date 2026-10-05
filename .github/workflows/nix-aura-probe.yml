@@ -1,0 +1,10 @@
+name: Nix Aura Actions Probe
+on:
+  push:
+    branches:
+      - nix-aura-actions-probe
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "public runner works"
