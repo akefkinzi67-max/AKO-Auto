@@ -4,7 +4,7 @@ on:
     branches:
       - nix-aura-actions-probe
 jobs:
-  probe:
-    runs-on: ubuntu-latest
+  macos-probe:
+    runs-on: macos-latest
     steps:
-      - run: echo "public runner works"
+      - run: echo "macos public runner works"
